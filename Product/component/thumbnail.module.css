@@ -1,0 +1,8 @@
+.thumbnail {
+  width: 3.5vw;
+  height: 3.5vw;
+  padding: 5px;
+  border-radius: 3px;
+  object-fit: cover;
+  object-position: center;
+}

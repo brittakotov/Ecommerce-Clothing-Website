@@ -1,0 +1,19 @@
+.widgetContainer {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.sectionContainer {
+  margin-bottom: 54px; 
+  opacity: 1;
+}
+
+.sectionTitle {
+  font-family: "AdineuePRO",Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,135 @@
+.left {
+  display: flex;
+  flex-flow: column;
+}
+
+.info {
+  height: 33vw;
+}
+
+.reviews {
+  font-family: "adobe-clean", sans-serif;
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #00ace6;
+}
+
+.category {
+  font-family: "adobe-clean", sans-serif;
+  font-size: 16px;
+  font-size: .8vw;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.name {
+  margin: 0px 0px;
+  font-family: "adobe-clean", sans-serif;
+  font-size: 40px;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.styles {
+  display: flex;
+  flex-flow: row wrap;
+  width: 21vw;
+  height: 10vw;
+  overflow: hidden;
+}
+
+.reminder {
+  margin-top: 5%;
+  font-family: "adobe-clean", sans-serif;
+  font-size: 14px;
+  color: red;
+
+}
+
+.selectorsDiv {
+  display: flex;
+  width: 100%;
+}
+
+.select {
+  height: 3.4vw;
+  width: 13.5vw;
+  margin-right: 20px;
+}
+
+.selectButton {
+  height: 100%;
+  width: 100%;
+  font-size: .9vw;
+  font-family: "adobe-clean", sans-serif;
+  padding-left: 6%;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #AAB8C2;
+  border-radius: 3px;
+}
+
+.quantity {
+  height: 3.4vw;
+  width: 7.3vw;
+  cursor: pointer;
+}
+
+.checkoutDiv {
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  height: 6.6vh;
+  cursor: pointer;
+}
+
+
+.description2 {
+  height: 8vw;
+  margin-top: 2vw;
+  border-left: 2px solid grey;
+}
+
+.list {
+  height: 8vw;
+  margin-left: 35px;
+  list-style-type: none;
+}
+
+.list li:before {
+  content: '✓ ';
+ }
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.cart {
+  height: 3.4vw;
+  width: 17vw;
+  margin-right: 20px;
+  background-color:black;
+  color: white;
+  font-size: .9vw;
+  font-family: "adobe-clean", sans-serif;
+  border: 1px solid #AAB8C2;
+  border-radius: 3px;
+  text-align: left;
+  padding-left: 5%;
+  font-weight: bold;
+  cursor: pointer;
+  background-size: 200% 200%;
+  background-image: radial-gradient(at center, #a6a6a6, #000000);
+  background-position: center;
+}

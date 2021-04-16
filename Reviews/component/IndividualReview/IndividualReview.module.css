@@ -1,0 +1,82 @@
+.summary {
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.body {
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.individualReview {
+  border-bottom: 1px solid grey;
+  font-family: Helvetica;
+}
+
+.reviewer_name {
+  margin-right: 4px;
+}
+
+.helpfulness {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
+.helpfulYesButton {
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.helpfulYesButton:hover {
+  font-weight: bold;
+}
+
+.report {
+  margin-left: 13px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.report:hover {
+  font-weight: bold;
+}
+
+.helpful {
+  margin-right: 13px;
+}
+
+.recommend {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.response {
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background-color: rgb(240, 240, 240);
+  font-size: 15px;
+}
+
+.responseTitle {
+  font-weight: bold;
+  margin-bottom: 15px;
+}

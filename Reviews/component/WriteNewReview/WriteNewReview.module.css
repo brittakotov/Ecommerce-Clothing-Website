@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.moreReviews {
+  height: 60px;
+  width: 170px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: white;
+  outline: none;
+}
+
+.addReview {
+  width: 200px;
+  height: 60px;
+  width: 170px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  outline: none;
+}
+
+.moreReviews:hover, .addReview:hover {
+  color: white;
+  background-color: rgb(7, 0, 0);
+}

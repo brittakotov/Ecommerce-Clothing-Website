@@ -1,0 +1,22 @@
+.price {
+  font-family: "adobe-clean", sans-serif;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.styleName {
+  display: flex;
+}
+
+.text {
+  text-transform: uppercase;
+  font-family: "adobe-clean", sans-serif;
+  font-size: 1vw;
+}
+
+.second {
+  text-transform: uppercase;
+  font-family: "adobe-clean", sans-serif;
+  font-size: 1vw;
+  margin-left: 5px;
+}
