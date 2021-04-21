@@ -1,25 +1,38 @@
-# Project Catwalk
-Github Workflow:
-1. To pull down most current master version from central repo: git pull origin main
-2. Make a new branch and name it accordingly based on feature being implemented: git checkout -b (insert branch name)
-3. Commit as you complete each implementation ticket or as you like
-4. Push your current working branch: git push origin (current branch name)
-5. Go on github and prepare to submit a pull request.
-6. Within pull request submission, fill out comment section to clarify commits, and include a link to the corresponding trello ticket id.
+<h1 align="center">Project Catwalk</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/react-v16.14-blue">
+  <img src="https://img.shields.io/badge/express-v4.17.1-blue">
+  <img src="https://img.shields.io/badge/axios-v0.21.1-blue">
+  <img src="https://img.shields.io/badge/webpack-v5.24.2-blue">
+  <img src="https://img.shields.io/badge/css--loader-v5.0.2-blue">
+</p>
+<p align="center">
+  <img src="https://github.com/kinetickingfishers/ProjectCatwalk/blob/main/fec2.gif" align="center" width="800">
+</p>
 
-If you have an open PR:
-1. Repeat above steps
-2. Do not edit files that are in your open PR
+### Overview
+The goal of Project Catwalk is to create an online retail portal. Overall functionality is determined by requested docs/specs and design inspired by current retail portal trends while a product data API is provided for the database. The project is coordinated by four engineers, each responsible for one of the four main modules.
 
-Notes:
-1. Never merge your own code!
-2. Always merge on Github.
-3. The reviewer must merge your code.
+### Features
+1. Product Detail: 
+   - Provides general information of the current product including price, associated styles, availability, pics, etc.
+2. Related Items & Comparison
+   - Displays a set of related products as well as a custom list created by the user.
+3. Questions & Answers:
+   - Offers a forum for user submitted questions and answers about current product.
+4. Ratings & Reviews:
+   - Showcases user submitted reviews and calculated ratings for current product.
 
-When reviewing someone else's PR:
-1. Clone a copy of the repo
-2. Name it something (ex. code review repo)
-3. Checkout the branch you are reviewing
-4. Test the code, look at the code, etc.
-5. Click merge button on Github if you approve the code.
-6. If you do not approve, make comment on Github PR. For reviewer: only merge after all comments are resolved and the code has been reviewed.
+### Technologies
+* Front-end:
+  * React.js, HTML/CSS, CSS Flexbox/Grid, CSS Modules
+* Back-end:
+  * Express.js, Node.js
+* Tools:
+  * Jest, Enzyme, Webpack/Babel
+
+### Credits
+* Product Detail: Ika Ogeil
+* Related Items & Comparison: Jeff Huang
+* Questions & Answers: Kevin Ng
+* Ratings & Reviews: Britta Kotov
